@@ -1,6 +1,6 @@
 from database import Base
 from typing import Optional
-from sqlalchemy import String, Integer, Float, Boolean
+from sqlalchemy import String, Integer, Float, Boolean, Text, DECIMAL
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from datetime import datetime, date
 
